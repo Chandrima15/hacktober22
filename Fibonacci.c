@@ -3,16 +3,17 @@
 #include<stdio>
 int main()
 {
-  int n1=0,n2=1,t,a,i;
+  int a1=0,a2=1,l,n,i;
   printf("Enter no of terms:");
   scanf("%d",&a);
 
   printf("Fibonacci sequence:");
-  for(i=1;i<=a;i++)
+  for(i=1;i<=n;i++)
   {
-    printf("%d\t",n1);
-    t=n1+n2;
-    n1=n2;
-    n2=t;
+    printf("%d\t",a1);
+    //print the first number
+    l=a1+a2;
+    a1=a2;
+    a2=l;
 }
 }
