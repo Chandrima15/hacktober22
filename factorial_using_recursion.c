@@ -17,16 +17,16 @@
  
  int main()
  {
-     int a;
+     int b;
      printf("Enter a Number To Find The Factorial: ");
-     scanf("%d", &a);                         //Taking the number as user-input
+     scanf("%d", &b);                         //Taking the number as user-input
      if(a<0)                                  //Condition if provided number is less than 0 (means, Factorial not possible!)
      {
         printf("Enter a valid number!");
      }
      else
      {
-        printf("The Factorial of %d is %d", a, factorial(a));     //If the number is greater than or equal to 0, it calls the Factorial Function
+        printf("The Factorial of %d is %d", b, factorial(b));     //If the number is greater than or equal to 0, it calls the Factorial Function
      }
      return 0;
 
