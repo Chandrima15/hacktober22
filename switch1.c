@@ -9,7 +9,7 @@ printf ( "Feeding fish\n" ) ;
 case 0 :
 printf ( "Weeding grass\n" ) ;
 case 1 :
-printf ( "Mending roof\n" ) ;
+printf ( "Mending rooftop\n" ) ;
 default :
 printf ( "Just to survive\n" ) ;
 }
