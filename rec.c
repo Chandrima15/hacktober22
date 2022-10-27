@@ -3,7 +3,7 @@ int main( )
 {
 int i = 0 ;
 i++ ;
-if ( i <= 5 )
+if ( i <= 4 )
 {
 printf ( "C adds wings to your thoughts\n" ) ;
 exit ( 0 ) ;
