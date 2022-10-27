@@ -1,19 +1,19 @@
-//C program to display Fibonacci sequence.
+//C program to display Fibonacci sequence//
 
 #include<stdio>
 int main()
 {
-  int a1=0,a2=1,l,n,i;
+  int b1=0,b2=1,l,n,i;
   printf("Enter no of terms:");
-  scanf("%d",&a);
+  scanf("%d",&b);
 
   printf("Fibonacci sequence:");
   for(i=1;i<=n;i++)
   {
     printf("%d\t",a1);
     //print the first number
-    l=a1+a2;
-    a1=a2;
-    a2=l;
+    l=b1+b2;
+    b1=b2;
+    b2=l;
 }
 }
